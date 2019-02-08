@@ -13,7 +13,10 @@ addons:
 
 script:
   - ng lint
+  # headless unit tests
   - ng test --watch=false --browsers=ChromeHeadless
+  # headless e2e tests
   - xvfb-run npm run e2e
   - ng build --prod --base-href "https://jacobgast.github.io/interactive-resume/" --deploy-url "/interactive-resume/"
+  # package angular-cli-ghpages used to deploy app to Github Pages
   - ngh --repo=https://$GITHUB_TOKEN@github.com/jacobgast/interactive-resume --dir=dist/jacob-gast-interactive-resume
