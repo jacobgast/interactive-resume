@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+  - "8"
+dist: trusty
+sudo: false
+
+cache:
+  directories:
+    - node_modules
+
+addons:
+  chrome: stable
+
+script:
+  - ng lint
+  - ng test --watch=false --browsers=ChromeHeadless
+  - xvfb-run npm run e2e
+  - ng build --prod --base-href "https://jacobgast.github.io/interactive-resume/" --deploy-url "/interactive-resume/"
+  - ngh --repo=https://$GITHUB_TOKEN@github.com/jacobgast/interactive-resume --dir=dist/jacob-gast-interactive-resume

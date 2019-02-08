@@ -1,0 +1,28 @@
+nav span {
+    color: white;
+    font-size: 14pt;
+}
+
+.active-tab {
+    background-color: #BBFFBB;
+    span {
+        color: black;
+    }
+}
+
+.nav-dark {
+    background-color: #222629;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+    background-color: white;
+    span {
+        color: #222629;
+    }
+}
+
+.nav-link {
+    padding: 5px;
+    text-decoration: none;
+}
