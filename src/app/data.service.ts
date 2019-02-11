@@ -121,7 +121,10 @@ export const projectArray: Project[] = [
         link: 'https://fontawesome.com/' },
       { detail: 'Most data is contained in a service, which is then displayed in template HTML files for each component' },
       { detail: 'Service file uses async methods to simulate database connection and make it easy to connect a real one instead' },
-      { detail: 'Each component gets data from service, then resolves it before display is updated' }
+      { detail: 'Each component gets data from service, then resolves it before display is updated' },
+      { detail: 'Continuous integration through Travis CI, which automatically runs linting the code, running unit and e2e ' +
+        'tests, builds the project, and deploys it to my Github Pages when changes are submitted to my repo',
+        link: 'https://travis-ci.org/' }
     ]
   }
 ];
