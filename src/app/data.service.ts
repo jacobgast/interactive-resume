@@ -179,6 +179,19 @@ export const workArray: Work[] = [
       'Created additional methods for a C# microservice back-end',
       'Connected components to microservices through a REST API'
     ]
+  },
+  {
+    name: 'Target',
+    startMonth: 'April',
+    startYear: '2019',
+    endMonth: 'present',
+    endYear: '',
+    position: 'Food team member',
+    points: [
+      'Pull consumable products from the shelves in the back room',
+      'Stock shelves in the store when they get low',
+      'Assist customers with finding specific products'
+    ]
   }
 ];
 
