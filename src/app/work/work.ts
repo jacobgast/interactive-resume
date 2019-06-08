@@ -6,4 +6,5 @@ export class Work {
     endYear: string;
     position: string;
     points: string[];
+    jobNumber: number;
 }

@@ -140,7 +140,8 @@ export const workArray: Work[] = [
     points: [
       'Worked in a fast-paced environment',
       'Helped out the restaurant by being a helpful member of the team'
-    ]
+    ],
+    jobNumber: 1
   },
   {
     name: 'Concordia State University, St. Paul',
@@ -153,7 +154,8 @@ export const workArray: Work[] = [
       'Assisted the teacher of the course by providing fair and ' +
         'accurate grades in a timely manner',
       'Analyzed the code and attempted to run each project to determine scores'
-    ]
+    ],
+    jobNumber: 3
   },
   {
     name: 'Cub Foods',
@@ -165,7 +167,8 @@ export const workArray: Work[] = [
     points: [
       'Improved my multitasking skills by managing multiple registers',
       'Used my customer service skills to assist our customers'
-    ]
+    ],
+    jobNumber: 2
   },
   {
     name: 'Cambria',
@@ -178,20 +181,38 @@ export const workArray: Work[] = [
       'Worked with AngularJS to create front-end components',
       'Created additional methods for a C# microservice back-end',
       'Connected components to microservices through a REST API'
-    ]
+    ],
+    jobNumber: 4
   },
   {
     name: 'Target',
     startMonth: 'April',
     startYear: '2019',
-    endMonth: 'present',
-    endYear: '',
+    endMonth: 'May',
+    endYear: '2019',
     position: 'Food team member',
     points: [
       'Pull consumable products from the shelves in the back room',
       'Stock shelves in the store when they get low',
       'Assist customers with finding specific products'
-    ]
+    ],
+    jobNumber: 5
+  },
+  {
+    name: 'MedNet Solutions',
+    startMonth: 'June',
+    startYear: '2019',
+    endMonth: null,
+    endYear: null,
+    position: 'Web software developer 1',
+    points: [
+      'Convert a PHP monolith program into React.js components',
+      'Add new features to our product to increase the happiness of our customers',
+      'Improve the efficiency of our product to reduce stress on our resources'
+        + ' and improve loading times for our users',
+      'Update our product to be responsive to allow users easy access'
+    ],
+    jobNumber: 6
   }
 ];
 

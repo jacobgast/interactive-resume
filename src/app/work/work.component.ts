@@ -16,7 +16,7 @@ export class WorkComponent implements OnInit {
 
   ngOnInit() {
     this.work = this.route.snapshot.data['work'];
-    this.work = _.orderBy(this.work, ['endYear', 'endMonth'], ['desc', 'desc']);
+    this.work = _.orderBy(this.work, 'jobNumber', 'desc');
   }
 
 }
